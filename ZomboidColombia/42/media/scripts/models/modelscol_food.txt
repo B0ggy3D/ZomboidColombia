@@ -1,0 +1,49 @@
+module Colombia
+{
+	model quipitos
+	{
+		mesh = quipitos,
+		texture = quipitos,
+		scale = 1.0,
+	}
+	model doritos
+	{
+		mesh = WorldItems/doritos,
+		texture = WorldItems/doritos,
+	}
+	model detodito
+    {
+        mesh = WorldItems/detodito,
+        texture = WorldItems/detodito,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+	model margarita
+	{
+		mesh = WorldItems/margarita,
+		texture = WorldItems/margarita,
+	}
+	model chocoramo
+    {
+        mesh = chocoramo,
+        texture = chocoramo,
+        scale = 0.4,
+
+        attachment Bip01_Prop2
+        {
+            offset = -0.0260 0.0020 -0.0180,
+            rotate = 162.5047 68.1168 -71.2381,
+            scale = 0.7500,
+        }
+
+        attachment attachment1
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+    }
+}

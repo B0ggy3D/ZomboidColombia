@@ -1,0 +1,6 @@
+Fluids_EN = {
+	Fluid_BeerAndSoda = "Beer And Soda",
+	Fluid_Malt = "Malt",
+	Fluid_Kola = "Kola",
+	Fluid_SodaApple = "Apple Soda",
+}

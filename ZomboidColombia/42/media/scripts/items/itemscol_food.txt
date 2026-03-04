@@ -1,0 +1,103 @@
+module Base
+{
+	item quipitos
+	{
+			ItemType = base:food,
+		Icon = quipitos,
+		Weight = 0.1,
+		Packaged = TRUE,
+		HungerChange = -5,
+		UnhappyChange = -15,
+		Calories = 32,
+		Carbohydrates = 7,
+		Lipids = 1,
+		Proteins = 1,
+			WorldStaticModel = quipitos,
+			StaticModel = quipitos,
+	}
+	
+	item chocoramo
+	{
+			ItemType = base:food,
+		Icon = chocoramo,
+		Weight = 0.3,
+		Packaged = TRUE,
+		HungerChange = -10,
+		UnhappyChange = -10,
+		Calories = 215,
+		Carbohydrates = 26,
+		Lipids = 11,
+		Proteins = 3,
+			WorldStaticModel = chocoramo,
+			StaticModel = chocoramo,
+	}
+	item gansito
+	{
+			ItemType = base:food,
+		Icon = gansito,
+		Weight = 0.3,
+		Packaged = TRUE,
+		HungerChange = -10,
+		UnhappyChange = -10,
+		Calories = 215,
+		Carbohydrates = 26,
+		Lipids = 11,
+		Proteins = 3,
+			WorldStaticModel = gansito,
+			StaticModel = gansito,
+	}
+	
+	item margarita
+	{
+			ItemType = base:food,
+		Icon = margarita,
+		EatType = EatBox,
+		Weight = 0.2,
+		CantBeFrozen = TRUE,
+		Packaged = TRUE,
+		HungerChange = -15.0,
+		Calories = 720.0,
+		Carbohydrates = 72.0,
+		Lipids = 45.0,
+		Proteins = 4.5,
+		CustomEatSound = EatingCrispy,
+			WorldStaticModel = Chips2,
+			StaticModel = Chips2,
+	}
+
+	item doritos
+	{
+			ItemType = base:food,
+		EatType = EatBox,
+		Weight = 0.2,
+		Icon = doritos,
+		CantBeFrozen = TRUE,
+		Packaged = TRUE,
+		HungerChange = -15.0,
+		Calories = 720.0,
+		Carbohydrates = 72.0,
+		Lipids = 45.0,
+		Proteins = 4.5,
+		CustomEatSound = EatingCrispy,
+			WorldStaticModel = doritos,
+			StaticModel = doritos,
+	}
+
+	item detodito
+	{
+			ItemType = base:food,
+		EatType = EatBox,
+		Weight = 0.2,
+		Icon = detodito,
+		CantBeFrozen = TRUE,
+		Packaged = TRUE,
+		HungerChange = -15.0,
+		Calories = 720.0,
+		Carbohydrates = 72.0,
+		Lipids = 45.0,
+		Proteins = 4.5,
+		CustomEatSound = EatingCrispy,
+			WorldStaticModel = Chips2,
+			StaticModel = Chips2,
+	}
+}

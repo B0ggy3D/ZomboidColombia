@@ -1,0 +1,20 @@
+module Base
+{
+	model sig543
+    {
+        mesh = weapons/firearm/sig543,
+		texture = weapons/firearm/sig543,
+		
+		
+        attachment muzzle
+        {
+            offset = 0.0 0.402 0.027,
+            rotate = -90.0 0.0 -180.0,
+        }
+        attachment world
+        {
+            offset = 0.02 0.13 0.0,
+            rotate = 180.0 0.0 180.0,
+        }
+    }
+}

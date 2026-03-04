@@ -1,0 +1,207 @@
+module Base
+{
+	fluid Malt
+	{
+        ColorReference = Cola,
+        DisplayName = Fluid_Malt,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            fatigueChange = -2.0,
+            HungerChange = -15.0,
+            StressChange = 0.0,
+            ThirstChange = -32.0,
+            UnhappyChange = -8.0,
+            Calories = 320.0,
+            Carbohydrates = 76.0,
+            Lipids = 0.0,
+            Proteins = 2.0,
+            alcohol = 0.0,
+            fluReduction = 0.0,
+            painReduction = 0.0,
+            enduranceChange = 0.0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+	fluid Kola
+	{
+        ColorReference = Peru,
+        DisplayName = Fluid_Kola,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            fatigueChange = -2.0,
+            HungerChange = -8.0,
+            StressChange = 0.0,
+            ThirstChange = -30.0,
+            UnhappyChange = -8.0,
+            Calories = 360.0,
+            Carbohydrates = 65.0,
+            Lipids = 0.0,
+            Proteins = 2.0,
+            alcohol = 0.0,
+            fluReduction = 0.0,
+            painReduction = 0.0,
+            enduranceChange = 0.0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+	fluid SodaApple
+	{
+        ColorReference = Crimson,
+        DisplayName = Fluid_SodaApple,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            fatigueChange = -2.0,
+            HungerChange = -12.0,
+            StressChange = 0.0,
+            ThirstChange = -30.0,
+            UnhappyChange = -10.0,
+            Calories = 400.0,
+            Carbohydrates = 102.0,
+            Lipids = 0.0,
+            Proteins = 0.0,
+            alcohol = 0.0,
+            fluReduction = 0.0,
+            painReduction = 0.0,
+            enduranceChange = 0.0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+	fluid SugarCaneWater
+    {
+        ColorReference = Sienna,
+        DisplayName = Fluid_Name_SugarCaneWater,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            Carbohydrates = 15.0,
+			Calories = 100.0,
+			ThirstChange = -45.0,
+        }
+    }
+	fluid SugarCaneLemon
+    {
+        ColorReference = Sienna,
+        DisplayName = Fluid_SugaCaneWaterLimon,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            StressChange = -15.0,
+			Carbohydrates = 15.0,
+			StressChange = -15.0,
+			Calories = 100.0,
+			ThirstChange = -45.0,
+        }
+    }
+	/*Alcholic*/
+	fluid aguardiente
+    {
+        ColorReference = White,
+        DisplayName = Fluid_aguardiente,
+        Categories
+        {
+            Beverage,
+            Alcoholic,
+        }
+        Properties
+        {
+            fatigueChange = 0.0,
+            HungerChange = -20.0,
+            StressChange = 0.0,
+            ThirstChange = -20.0,
+            UnhappyChange = -10.0,
+            Calories = 2700.0,
+            Carbohydrates = 0.0,
+            Lipids = 0.0,
+            Proteins = 0.0,
+            alcohol = 0.4,
+            fluReduction = 0.0,
+            painReduction = 0.0,
+            enduranceChange = 0.0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+	fluid BeerAndSoda
+	{
+        ColorReference = Ginger,
+        DisplayName = Fluid_BeerAndCola,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            fatigueChange = -2.0,
+            HungerChange = -12.0,
+            StressChange = 0.0,
+            ThirstChange = -25.0,
+            UnhappyChange = -5.0,
+            Calories = 400.0,
+            Carbohydrates = 52.0,
+            Lipids = 0.0,
+            Proteins = 2.0,
+            alcohol = 0.02,
+            fluReduction = 0.0,
+            painReduction = 0.0,
+            enduranceChange = 0.0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+}

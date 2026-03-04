@@ -1,0 +1,244 @@
+module Base
+{
+	item ponymalta1
+    {
+        DisplayCategory = Food,
+        ItemType = base:normal,
+        Weight = 0.1,
+        Icon = PopBottle,
+        IconColorMask = WaterBottle_Mask2,
+        IconFluidMask = PopBottle_Mask,
+        Packaged = true,
+        FillFromDispenserSound = GetWaterFromDispenserPlasticMedium,
+        FillFromLakeSound = GetWaterFromLakeBottle,
+        FillFromTapSound = GetWaterFromTapPlasticBig,
+        FillFromToiletSound = GetWaterFromToilet,
+        StaticModel = PopBottleWorld,
+        WorldStaticModel = PopBottleWorld,
+        OnCreate = ItemCodeOnCreate.onCreatePopBottle,
+        Tags = base:cookablemicrowave,
+        component FluidContainer
+        {
+            ContainerName = BottlePlastic,
+            PickRandomFluid = true,
+            Capacity = 2.0,
+            CustomDrinkSound = DrinkingFromBottlePlastic,
+            Fluids
+            {
+                fluid = Malt:1.0,
+            }
+        }
+    }
+	item KolaColombiana
+    {
+        DisplayCategory = Food,
+        ItemType = base:normal,
+        Weight = 0.1,
+        Icon = PopBottle,
+        IconColorMask = WaterBottle_Mask2,
+        IconFluidMask = PopBottle_Mask,
+        Packaged = true,
+        FillFromDispenserSound = GetWaterFromDispenserPlasticMedium,
+        FillFromLakeSound = GetWaterFromLakeBottle,
+        FillFromTapSound = GetWaterFromTapPlasticBig,
+        FillFromToiletSound = GetWaterFromToilet,
+        StaticModel = PopBottleWorld,
+        WorldStaticModel = PopBottleWorld,
+        OnCreate = ItemCodeOnCreate.onCreatePopBottle,
+        Tags = base:cookablemicrowave,
+        component FluidContainer
+        {
+            ContainerName = BottlePlastic,
+            PickRandomFluid = true,
+            Capacity = 2.0,
+            CustomDrinkSound = DrinkingFromBottlePlastic,
+            Fluids
+            {
+                fluid = Kola:1.0,
+            }
+        }
+	}
+	/*item juicehit
+    {
+        DisplayCategory = Food,
+        ItemType = base:normal,
+        Weight = 0.4,
+        Icon = juicehit,
+        Packaged = true,
+        StaticModel = BeerBottleImported,
+        WorldStaticModel = BeerBottle,
+        Tooltip = Tooltip_item_BottleOpener,
+        FillFromDispenserSound = GetWaterFromDispenserGlass,
+        FillFromLakeSound = GetWaterFromLakeBottle,
+        FillFromTapSound = GetWaterFromTapGlass,
+        FillFromToiletSound = GetWaterFromToilet,
+        Tags = base:glass;base:glassbottle,
+        OpeningRecipe = OpenBottleOfBeer,
+        component FluidContainer
+        {
+            ContainerName = BottlePlastic,
+            PickRandomFluid = true,
+            Capacity = 2.0,
+            CustomDrinkSound = DrinkingFromBottlePlastic,
+            Fluids
+            {
+                fluid = SodaPineapple:1.0,
+                fluid = SodaStrewberry:1.0,
+				fluid = JuiceOrange:1.0,
+            }
+        }
+	}*/
+	item refajo
+    {
+        DisplayCategory = Food,
+        ItemType = base:normal,
+        Weight = 0.1,
+        Icon = PopBottle,
+        IconColorMask = WaterBottle_Mask2,
+        IconFluidMask = PopBottle_Mask,
+        Packaged = true,
+        FillFromDispenserSound = GetWaterFromDispenserPlasticMedium,
+        FillFromLakeSound = GetWaterFromLakeBottle,
+        FillFromTapSound = GetWaterFromTapPlasticBig,
+        FillFromToiletSound = GetWaterFromToilet,
+        StaticModel = PopBottleWorld,
+        WorldStaticModel = PopBottleWorld,
+        OnCreate = ItemCodeOnCreate.onCreatePopBottle,
+        Tags = base:cookablemicrowave,
+        component FluidContainer
+        {
+            ContainerName = BottlePlastic,
+            PickRandomFluid = true,
+            Capacity = 2.0,
+            CustomDrinkSound = DrinkingFromBottlePlastic,
+            Fluids
+            {
+                fluid = BeerAndSoda:1.0,
+            }
+        }
+    }
+	item sodacolombiana
+    {
+        DisplayCategory = Food,
+        ItemType = base:normal,
+        Weight = 0.1,
+        Icon = PopBottle,
+        IconColorMask = WaterBottle_Mask2,
+        IconFluidMask = PopBottle_Mask,
+        Packaged = true,
+        FillFromDispenserSound = GetWaterFromDispenserPlasticMedium,
+        FillFromLakeSound = GetWaterFromLakeBottle,
+        FillFromTapSound = GetWaterFromTapPlasticBig,
+        FillFromToiletSound = GetWaterFromToilet,
+        StaticModel = PopBottleWorld,
+        WorldStaticModel = PopBottleWorld,
+        OnCreate = ItemCodeOnCreate.onCreatePopBottle,
+        Tags = base:cookablemicrowave,
+        component FluidContainer
+        {
+            ContainerName = BottlePlastic,
+            PickRandomFluid = true,
+            Capacity = 2.0,
+            CustomDrinkSound = DrinkingFromBottlePlastic,
+            Fluids
+            {
+                fluid = SodaPop:1.0,
+				fluid = SodaLime:1.0,
+				fluid = SodaGrape:1.0,
+				fluid = SodaApple:1.0,
+            }
+        }
+	}
+	/*Bebidas Alcolicas*/
+	item pokerbeer
+    {
+        DisplayCategory = Food,
+        ItemType = base:normal,
+        Weight = 0.3,
+        Icon = BeerCan,
+        EatType = Popcan,
+        Packaged = true,
+        StaticModel = BeerCan,
+        WorldStaticModel = BeerCan_Ground,
+        FillFromDispenserSound = GetWaterFromDispenserMetalMedium,
+        FillFromLakeSound = GetWaterFromLakeSmall,
+        FillFromTapSound = GetWaterFromTapMetalMedium,
+        FillFromToiletSound = GetWaterFromToilet,
+        Tags = base:cookable;base:lowalcohol;base:hasmetal;base:emptycan;base:sealedbeveragecan,
+        Eattime = 160,
+        component FluidContainer
+        {
+            ContainerName = CanBeer,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromCan,
+            Fluids
+            {
+                fluid = Beer:1.0,
+            }
+        }
+        component Durability
+        {
+            Material = Metal_Light,
+            MaxHitPoints = 1.0,
+        }
+    }
+	item aguilabeer
+    {
+        DisplayCategory = Food,
+        ItemType = base:normal,
+        Weight = 0.3,
+        Icon = BeerCan,
+        EatType = Popcan,
+        Packaged = true,
+        StaticModel = BeerCan,
+        WorldStaticModel = BeerCan_Ground,
+        FillFromDispenserSound = GetWaterFromDispenserMetalMedium,
+        FillFromLakeSound = GetWaterFromLakeSmall,
+        FillFromTapSound = GetWaterFromTapMetalMedium,
+        FillFromToiletSound = GetWaterFromToilet,
+        Tags = base:cookable;base:lowalcohol;base:hasmetal;base:emptycan;base:sealedbeveragecan,
+        Eattime = 160,
+        component FluidContainer
+        {
+            ContainerName = CanBeer,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromCan,
+            Fluids
+            {
+                fluid = Beer:1.0,
+            }
+        }
+        component Durability
+        {
+            Material = Metal_Light,
+            MaxHitPoints = 1.0,
+        }
+    }
+	item aguardiente
+    {
+        DisplayCategory = Food,
+        ItemType = base:normal,
+        Weight = 0.7,
+        Icon = Whiskey,
+        EatType = Bourbon,
+        IconFluidMask = Whiskey_Mask,
+        FillFromDispenserSound = GetWaterFromDispenserGlass,
+        FillFromLakeSound = GetWaterFromLakeBottle,
+        FillFromTapSound = GetWaterFromTapGlass,
+        FillFromToiletSound = GetWaterFromToilet,
+        StaticModel = WhiskeyBottle,
+        WorldStaticModel = WhiskeyBottleGround,
+        Tags = base:glass;base:glassbottle,
+        component FluidContainer
+        {
+            ContainerName = BottleGlass,
+            Capacity = 1.0,
+            CustomDrinkSound = DrinkingFromBottleGlass,
+            Fluids
+            {
+                fluid = Whiskey:1.0,
+            }
+        }
+    }
+	
+}

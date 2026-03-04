@@ -1,0 +1,20 @@
+module Base
+{
+	item Hat_SteadSpiffo
+    {
+        DisplayCategory = Memento,
+        ItemType = base:clothing,
+        Icon = SpiffoHead,
+        BloodLocation = Head,
+        BodyLocation = base:fullhat,
+        CanHaveHoles = false,
+        ChanceToFall = 10,
+        ClothingItem = Hat_SteadSpiffo,
+        Insulation = 0.15,
+        WaterResistance = 0.75,
+        WindResistance = 0.75,
+        VisionModifier = 0.10,
+        HearingModifier = 0.15,
+        Tags = base:ignorezombiedensity;base:isdisguise;base:isfirefuel;base:isfiretinder;base:ismemento,
+    }
+}

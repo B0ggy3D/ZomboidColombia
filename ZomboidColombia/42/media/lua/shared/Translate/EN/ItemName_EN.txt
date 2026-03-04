@@ -1,0 +1,8 @@
+ItemName_EN = {
+	ItemName_Colombia.quipitos = "Quipitos",
+	ItemName_Colombia.chocoramo = "Chocoramo",
+	ItemName_Colombia.doritos = "Doritos",
+	ItemName_Colombia.detodito = "Detodito",
+	ItemName_Colombia.margarita = "Margarita",
+	ItemName_Base.Hat_SteadSpiffo = "SteadFast Spiffo Head",
+}
