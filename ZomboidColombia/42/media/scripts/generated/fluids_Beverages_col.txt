@@ -1,5 +1,6 @@
 module Base
 {
+	/*****************Sodas*****************/
 	fluid Malt
 	{
         ColorReference = Cola,
@@ -36,7 +37,7 @@ module Base
     }
 	fluid Kola
 	{
-        ColorReference = Peru,
+        ColorReference = Ginger,
         DisplayName = Fluid_Kola,
         Categories
         {
@@ -102,6 +103,79 @@ module Base
             }
         }
     }
+	
+	/*****************Traditional*****************/
+	
+	fluid Masato
+	{
+        ColorReference = White,
+        DisplayName = Fluid_Masato,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            fatigueChange = -2.0,
+            HungerChange = -12.0,
+            StressChange = 0.0,
+            ThirstChange = -30.0,
+            UnhappyChange = -10.0,
+            Calories = 400.0,
+            Carbohydrates = 102.0,
+            Lipids = 0.0,
+            Proteins = 0.0,
+            alcohol = 0.0,
+            fluReduction = 0.0,
+            painReduction = 0.0,
+            enduranceChange = 0.0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+	
+	fluid Chicha
+	{
+        ColorReference = Peru,
+        DisplayName = Fluid_Chicha,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            fatigueChange = -2.0,
+            HungerChange = -12.0,
+            StressChange = 0.0,
+            ThirstChange = -30.0,
+            UnhappyChange = -10.0,
+            Calories = 400.0,
+            Carbohydrates = 102.0,
+            Lipids = 0.0,
+            Proteins = 0.0,
+            alcohol = 0.0,
+            fluReduction = 0.0,
+            painReduction = 0.0,
+            enduranceChange = 0.0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+	
 	fluid SugarCaneWater
     {
         ColorReference = Sienna,
@@ -117,24 +191,80 @@ module Base
 			ThirstChange = -45.0,
         }
     }
-	fluid SugarCaneLemon
-    {
-        ColorReference = Sienna,
-        DisplayName = Fluid_SugaCaneWaterLimon,
+	
+	fluid Oatmeal
+	{
+        ColorReference = White,
+        DisplayName = Fluid_Oatmeal,
         Categories
         {
             Beverage,
         }
         Properties
         {
-            StressChange = -15.0,
-			Carbohydrates = 15.0,
-			StressChange = -15.0,
-			Calories = 100.0,
-			ThirstChange = -45.0,
+            fatigueChange = -2.0,
+            HungerChange = -12.0,
+            StressChange = 0.0,
+            ThirstChange = -30.0,
+            UnhappyChange = -10.0,
+            Calories = 400.0,
+            Carbohydrates = 102.0,
+            Lipids = 0.0,
+            Proteins = 0.0,
+            alcohol = 0.0,
+            fluReduction = 0.0,
+            painReduction = 0.0,
+            enduranceChange = 0.0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
         }
     }
-	/*Alcholic*/
+	
+	/*****************Alcholic*****************/
+	
+	
+	fluid SugarCaneLiquor
+	{
+        ColorReference = Peru,
+        DisplayName = Fluid_SugarCaneLiquor,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            fatigueChange = -2.0,
+            HungerChange = -12.0,
+            StressChange = 0.0,
+            ThirstChange = -30.0,
+            UnhappyChange = -10.0,
+            Calories = 400.0,
+            Carbohydrates = 102.0,
+            Lipids = 0.0,
+            Proteins = 0.0,
+            alcohol = 0.0,
+            fluReduction = 0.0,
+            painReduction = 0.0,
+            enduranceChange = 0.0,
+            foodSicknessChange = 0,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+                Beverage,
+            }
+        }
+    }
+	
 	fluid aguardiente
     {
         ColorReference = White,
@@ -170,9 +300,10 @@ module Base
             }
         }
     }
+	
 	fluid BeerAndSoda
 	{
-        ColorReference = Ginger,
+        ColorReference = Sienna,
         DisplayName = Fluid_BeerAndCola,
         Categories
         {
