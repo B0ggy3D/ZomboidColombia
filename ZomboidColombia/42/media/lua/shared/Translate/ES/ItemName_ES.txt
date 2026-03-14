@@ -1,8 +1,0 @@
-ItemName_ES = {
-	ItemName_Base.quipitos = "Quipitos",
-	ItemName_Base.chocoramo = "Chocoramo",
-	ItemName_Base.doritos = "Doritos",
-	ItemName_Base.detodito = "Detodito",
-	ItemName_Base.margarita = "Margarita",
-	ItemName_Base.Hat_SteadSpiffo = "Cabeza de Superviviente Spiffo",
-}

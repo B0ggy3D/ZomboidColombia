@@ -141,10 +141,10 @@ module Base
         }
     }
 	
-	fluid Chicha
+	fluid CornDrink
 	{
         ColorReference = Peru,
-        DisplayName = Fluid_Chicha,
+        DisplayName = Fluid_CornDrink,
         Categories
         {
             Beverage,
@@ -179,7 +179,7 @@ module Base
 	fluid SugarCaneWater
     {
         ColorReference = Sienna,
-        DisplayName = Fluid_Name_SugarCaneWater,
+        DisplayName = Fluid_SugarCaneWater,
         Categories
         {
             Beverage,
