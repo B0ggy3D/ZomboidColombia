@@ -265,7 +265,7 @@ module Base
         }
     }
 	
-	fluid aguardiente
+	fluid Aguardiente
     {
         ColorReference = White,
         DisplayName = Fluid_aguardiente,

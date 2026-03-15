@@ -1,0 +1,20 @@
+{
+	"_Candy" : "Candies",
+	"Base.quipitos": "Quipitos",
+	"Base.guavasweet": "Guava Sweet",
+	"Base.sugarcanesweet": "SugarCane Sweet",
+	"Base.chocoramo": "Chocoramo",
+	"Base.gansito": "Gansito",
+	"Base.chocolatejet": "Chocolate Jet",
+	"Base.detodito": "Detodito",	
+	"Base.margarita": "Margarita",
+	
+	"_Drinks" :"Drinks",
+	"Base.ponymalta1": "Pony Malt",
+	"Base.kolacolombia": "Colombian Kola",
+	"Base.refajo": "Beer And Soda",
+	"Base.pokerbeer": "Poker Beer",
+	"Base.aguilabeer": "Aguila Beer",
+	"Base.clubcolbeer": "Club Colombia Beer",
+	"Base.aguaridente": "Aguardiente"
+}
