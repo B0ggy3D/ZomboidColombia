@@ -1,15 +1,18 @@
 module Colombia
 {
-	/*model ponymalta
+	model PonyMalta1
     {
-        mesh = ponymalta,
+        mesh = WorldItems/EmptyPopBottle,
+        texture = WorldItems/ponymalta,
+        scale = 0.017,
         attachment Bip01_Prop2
         {
-            offset = -0.0107 0.0108 -0.0033,
-            rotate = 1.287 -0.7958 1.1989,
+            offset = 0.0013 -0.0241 -0.0232,
+            rotate = 1.6573 -28.7839 -3.1504,
+            scale = 0.8253,
         }
-    }*/
-	model kolacolombia
+    }
+	model KolaColombia
     {
         mesh = WorldItems/EmptyPopBottle,
         texture = WorldItems/kolacolombia,
@@ -20,5 +23,66 @@ module Colombia
             rotate = 1.6573 -28.7839 -3.1504,
             scale = 0.8253,
         }
+    }
+	model Refajo
+    {
+        mesh = PopCanDiet,
+        texture = WorldItems/refajo,
+        attachment Bip01_Prop2
+        {
+            offset = -0.0177 0.0017 0.0047,
+            rotate = 0.0 -30.9663 0.0,
+            scale = 1.0087,
+        }
+    }
+	model PokerBeer
+    {
+        mesh = PopCanDiet,
+        texture = WorldItems/pokerbeer,
+        attachment Bip01_Prop2
+        {
+            offset = -0.0177 0.0017 0.0047,
+            rotate = 0.0 -30.9663 0.0,
+            scale = 1.0087,
+        }
+    }
+	model AguilaBeer
+    {
+        mesh = PopCanDiet,
+        texture = WorldItems/aguilabeer,
+        attachment Bip01_Prop2
+        {
+            offset = -0.0177 0.0017 0.0047,
+            rotate = 0.0 -30.9663 0.0,
+            scale = 1.0087,
+        }
+    }
+	model ClubColBeer
+    {
+        mesh = PopCanDiet,
+        texture = WorldItems/clubcolbeer,
+        attachment Bip01_Prop2
+        {
+            offset = -0.0177 0.0017 0.0047,
+            rotate = 0.0 -30.9663 0.0,
+            scale = 1.0087,
+        }
+    }
+	model Aguardiente
+    {
+        mesh = WhiskeyBottle,
+		texture = WorldItems/aguardiente,
+        attachment world
+        {
+            offset = 0.0 0.0 0.0,
+            rotate = 180.0 27.0 -89.0,
+        }
+    }
+	model AguardienteGround
+    {
+        mesh = WorldItems/WhiskeyBottle,
+		texture = WorldItems/aguardiente,
+        texture = WhiskeyBottle,
+        scale = 0.4,
     }
 }

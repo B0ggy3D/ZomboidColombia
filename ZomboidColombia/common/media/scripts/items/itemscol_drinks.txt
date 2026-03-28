@@ -1,6 +1,6 @@
 module Base
 {
-	item ponymalta1
+	item PonyMalta1
     {
         DisplayCategory = Food,
         ItemType = base:normal,
@@ -29,12 +29,12 @@ module Base
             }
         }
     }
-	item kolacolombia
+	item KolaColombia
     {
         DisplayCategory = Food,
         ItemType = base:normal,
         Weight = 0.1,
-        Icon = kolacolombia,
+        Icon = PopBottle,
         IconColorMask = WaterBottle_Mask2,
         IconFluidMask = PopBottle_Mask,
         Packaged = true,
@@ -49,76 +49,49 @@ module Base
         component FluidContainer
         {
             ContainerName = BottlePlastic,
-            PickRandomFluid = true,
             Capacity = 2.0,
+			Opened = true,
             CustomDrinkSound = DrinkingFromBottlePlastic,
             Fluids
             {
                 fluid = Kola:1.0,
             }
         }
-	}
-	/*item juicehit
+    }
+	item Refajo
     {
         DisplayCategory = Food,
         ItemType = base:normal,
-        Weight = 0.4,
-        Icon = juicehit,
+        Weight = 0.3,
+        Icon = BeerCan,
+        EatType = Popcan,
         Packaged = true,
-        StaticModel = BeerBottleImported,
-        WorldStaticModel = BeerBottle,
-        Tooltip = Tooltip_item_BottleOpener,
-        FillFromDispenserSound = GetWaterFromDispenserGlass,
-        FillFromLakeSound = GetWaterFromLakeBottle,
-        FillFromTapSound = GetWaterFromTapGlass,
+        StaticModel = BeerCan,
+        WorldStaticModel = BeerCan_Ground,
+        FillFromDispenserSound = GetWaterFromDispenserMetalMedium,
+        FillFromLakeSound = GetWaterFromLakeSmall,
+        FillFromTapSound = GetWaterFromTapMetalMedium,
         FillFromToiletSound = GetWaterFromToilet,
-        Tags = base:glass;base:glassbottle,
-        OpeningRecipe = OpenBottleOfBeer,
+        Tags = base:cookable;base:lowalcohol;base:hasmetal;base:emptycan;base:sealedbeveragecan,
+        Eattime = 160,
         component FluidContainer
         {
-            ContainerName = BottlePlastic,
-            PickRandomFluid = true,
-            Capacity = 2.0,
-            CustomDrinkSound = DrinkingFromBottlePlastic,
-            Fluids
-            {
-                fluid = SodaPineapple:1.0,
-                fluid = SodaStrewberry:1.0,
-				fluid = JuiceOrange:1.0,
-            }
-        }
-	}*/
-	item refajo
-    {
-        DisplayCategory = Food,
-        ItemType = base:normal,
-        Weight = 0.1,
-        Icon = PopBottle,
-        IconColorMask = WaterBottle_Mask2,
-        IconFluidMask = PopBottle_Mask,
-        Packaged = true,
-        FillFromDispenserSound = GetWaterFromDispenserPlasticMedium,
-        FillFromLakeSound = GetWaterFromLakeBottle,
-        FillFromTapSound = GetWaterFromTapPlasticBig,
-        FillFromToiletSound = GetWaterFromToilet,
-        StaticModel = PopBottleWorld,
-        WorldStaticModel = PopBottleWorld,
-        OnCreate = ItemCodeOnCreate.onCreatePopBottle,
-        Tags = base:cookablemicrowave,
-        component FluidContainer
-        {
-            ContainerName = BottlePlastic,
-            PickRandomFluid = true,
-            Capacity = 2.0,
-            CustomDrinkSound = DrinkingFromBottlePlastic,
+            ContainerName = CanBeer,
+            Capacity = 0.3,
+            CustomDrinkSound = DrinkingFromCan,
             Fluids
             {
                 fluid = BeerAndSoda:1.0,
             }
         }
+        component Durability
+        {
+            Material = Metal_Light,
+            MaxHitPoints = 1.0,
+        }
     }
 	/*Bebidas Alcolicas*/
-	item pokerbeer
+	item PokerBeer
     {
         DisplayCategory = Food,
         ItemType = base:normal,
@@ -150,7 +123,7 @@ module Base
             MaxHitPoints = 1.0,
         }
     }
-	item aguilabeer
+	item AguilaBeer
     {
         DisplayCategory = Food,
         ItemType = base:normal,
@@ -182,7 +155,7 @@ module Base
             MaxHitPoints = 1.0,
         }
     }
-	item clubcolbeer
+	item ClubColBeer
     {
         DisplayCategory = Food,
         ItemType = base:normal,
@@ -214,7 +187,7 @@ module Base
             MaxHitPoints = 1.0,
         }
     }
-	item aguardiente
+	item Aguardiente
     {
         DisplayCategory = Food,
         ItemType = base:normal,
@@ -226,8 +199,8 @@ module Base
         FillFromLakeSound = GetWaterFromLakeBottle,
         FillFromTapSound = GetWaterFromTapGlass,
         FillFromToiletSound = GetWaterFromToilet,
-        StaticModel = WhiskeyBottle,
-        WorldStaticModel = WhiskeyBottleGround,
+        StaticModel = Aguardiente,
+        WorldStaticModel = AguardienteGround,
         Tags = base:glass;base:glassbottle,
         component FluidContainer
         {
@@ -236,7 +209,7 @@ module Base
             CustomDrinkSound = DrinkingFromBottleGlass,
             Fluids
             {
-                fluid = Whiskey:1.0,
+                fluid = Aguardiente:1.0,
             }
         }
     }

@@ -1,92 +1,80 @@
 module Base
 {
-	/**Candy**/
-	item quipitos
-	{
-			ItemType = base:food,
-		Icon = quipitos,
-		Weight = 0.1,
-		Packaged = TRUE,
-		HungerChange = -5,
-		UnhappyChange = -15,
-		Calories = 32,
-		Carbohydrates = 7,
-		Lipids = 1,
-		Proteins = 1,
-			WorldStaticModel = quipitos,
-			StaticModel = quipitos,
-	}
-	item guavasweet /**Bocadillo Veleño**/
-	{
-			ItemType = base:food,
-		Icon = quipitos,
-		Weight = 0.1,
-		Packaged = TRUE,
-		HungerChange = -5,
-		UnhappyChange = -15,
-		Calories = 32,
-		Carbohydrates = 7,
-		Lipids = 1,
-		Proteins = 1,
-			WorldStaticModel = quipitos,
-			StaticModel = quipitos,
-	}
-	item sugarcanesweet /**Panelita**/
-	{
-			ItemType = base:food,
-		Icon = quipitos,
-		Weight = 0.1,
-		Packaged = TRUE,
-		HungerChange = -5,
-		UnhappyChange = -15,
-		Calories = 32,
-		Carbohydrates = 7,
-		Lipids = 1,
-		Proteins = 1,
-			WorldStaticModel = quipitos,
-			StaticModel = quipitos,
-	
-	item oblea /**Falta modificar a oblea-No Perecedero**/
+	/*Normal*/
+	item WafersBag
     {
-        DisplayCategory = Food,
-        ItemType = base:food,
-        Weight = 0.1,
-        Icon = BreadSlices,
-        EvolvedRecipe = Soup:5;Stew:5;Salad:5,
-        FoodType = Bread,
-        IsCookable = true,
-        ReplaceOnCooked = Base.Toast,
-        MinutesToCook = 4,
-        DaysFresh = 3,
-        DaysTotallyRotten = 6,
-        HungerChange = -10.0,
-        Calories = 177.0,
-        Carbohydrates = 33.0,
-        Lipids = 2.22,
-        Proteins = 5.9,
-        StaticModel = BreadSlices,
-        WorldStaticModel = BreadSlices,
-        Tags = base:hidecooked;base:fitstoaster,
-        EvolvedRecipeName = Bread,
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 0.5,
+        Icon = WaferSBag,
+        SurvivalGear = true,
+        WorldStaticModel = WafersBag,
+        DoubleClickRecipe = OpenBox20,
     }
-	item CookiesFestival
+	/**Candy**/
+	item Quipitos
+	{
+			ItemType = base:food,
+		Icon = quipitos,
+		Weight = 0.1,
+		Packaged = TRUE,
+		HungerChange = -5,
+		UnhappyChange = -15,
+		Calories = 32,
+		Carbohydrates = 7,
+		Lipids = 1,
+		Proteins = 1,
+			WorldStaticModel = quipitos,
+			StaticModel = quipitos,
+	}
+	item GuavaSweet /**Bocadillo Veleño**/
+	{
+			ItemType = base:food,
+		Icon = quipitos,
+		Weight = 0.1,
+		Packaged = TRUE,
+		HungerChange = -5,
+		UnhappyChange = -15,
+		Calories = 32,
+		Carbohydrates = 7,
+		Lipids = 1,
+		Proteins = 1,
+			WorldStaticModel = quipitos,
+			StaticModel = quipitos,
+	}
+	item SugarCaneSweet /**Panelita**/
+	{
+			ItemType = base:food,
+		Icon = quipitos,
+		Weight = 0.1,
+		Packaged = TRUE,
+		HungerChange = -5,
+		UnhappyChange = -15,
+		Calories = 32,
+		Carbohydrates = 7,
+		Lipids = 1,
+		Proteins = 1,
+			WorldStaticModel = quipitos,
+			StaticModel = quipitos,
+	}
+	item Wafers /**Falta modificar a oblea-No Perecedero**/
     {
         DisplayCategory = Food,
         ItemType = base:food,
         Weight = 0.1,
-        Icon = CookiesSugar,
+        Icon = CookiesOatmeal,
         HungerChange = -5.0,
         UnhappyChange = -10,
-        Calories = 120.0,
-        Carbohydrates = 22.0,
-        Lipids = 8.0,
-        Proteins = 2.0,
+        Calories = 110.0,
+        Carbohydrates = 20.0,
+        Lipids = 6.0,
+        Proteins = 1.0,
         CustomEatSound = EatingCrispy,
+        StaticModel = Cookie_Oatmeal_Hand,
+        WorldStaticModel = Cookie_Oatmeal_Ground,
         Tags = base:fitstoaster,
-        StaticModel = CookiesSugar_Hand,
-        WorldStaticModel = CookiesSugar_Ground,
     }
-	item chocoramo
+	item Chocoramo
 	{
 			ItemType = base:food,
 		Icon = chocoramo,
@@ -101,7 +89,7 @@ module Base
 			WorldStaticModel = chocoramo,
 			StaticModel = chocoramo,
 	}
-	item gansito
+	item Gansito
 	{
 			ItemType = base:food,
 		Icon = gansito,
@@ -136,7 +124,7 @@ module Base
         WorldStaticModel = Chocolate,
     }
 	/**Chips**/
-	item margarita
+	item Margarita
 	{
 			ItemType = base:food,
 		Icon = margarita,
@@ -153,7 +141,7 @@ module Base
 			WorldStaticModel = Chips2,
 			StaticModel = Chips2,
 	}
-	item detodito
+	item DeTodito
 	{
 			ItemType = base:food,
 		EatType = EatBox,

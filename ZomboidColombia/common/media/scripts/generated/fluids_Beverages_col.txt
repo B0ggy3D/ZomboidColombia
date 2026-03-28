@@ -264,11 +264,10 @@ module Base
             }
         }
     }
-	
 	fluid Aguardiente
     {
         ColorReference = White,
-        DisplayName = Fluid_aguardiente,
+        DisplayName = Fluid_Aguardiente,
         Categories
         {
             Beverage,
@@ -277,15 +276,15 @@ module Base
         Properties
         {
             fatigueChange = 0.0,
-            HungerChange = -20.0,
+            HungerChange = -10.0,
             StressChange = 0.0,
-            ThirstChange = -20.0,
+            ThirstChange = -10.0,
             UnhappyChange = -10.0,
-            Calories = 2700.0,
+            Calories = 1610.0,
             Carbohydrates = 0.0,
             Lipids = 0.0,
             Proteins = 0.0,
-            alcohol = 0.4,
+            alcohol = 0.3,
             fluReduction = 0.0,
             painReduction = 0.0,
             enduranceChange = 0.0,
@@ -300,7 +299,6 @@ module Base
             }
         }
     }
-	
 	fluid BeerAndSoda
 	{
         ColorReference = Sienna,

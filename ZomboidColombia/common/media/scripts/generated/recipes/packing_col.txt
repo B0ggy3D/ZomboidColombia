@@ -1,0 +1,23 @@
+module Base
+{
+	craftRecipe OpenBox20
+    {
+        timedAction = UnPackBox_Small,
+        time = 5,
+        Tags = InHandCraft;Packing;CanBeDoneInDark,
+        category = Packing,
+        recipeGroup = OpenBox,
+        inputs
+        {
+            item 1 [Base.WafersBag] mappers[itemType] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 mapper:itemType,
+        }
+        itemMapper itemType
+        {
+            Base.Wafers = Base.WafersBag
+        }
+    }
+}
