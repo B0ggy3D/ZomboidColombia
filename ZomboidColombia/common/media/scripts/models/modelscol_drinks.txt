@@ -2,7 +2,7 @@ module Colombia
 {
 	model PonyMalta1
     {
-        mesh = WorldItems/EmptyPopBottle,
+        mesh = WorldItems/BottleSoda,
         texture = WorldItems/ponymalta,
         scale = 0.017,
         attachment Bip01_Prop2
@@ -12,9 +12,9 @@ module Colombia
             scale = 0.8253,
         }
     }
-	model KolaColombia
+	model kolacolombia
     {
-        mesh = WorldItems/EmptyPopBottle,
+        mesh = WorldItems/BottleSoda,
         texture = WorldItems/kolacolombia,
         scale = 0.017,
         attachment Bip01_Prop2
@@ -32,6 +32,17 @@ module Colombia
         {
             offset = -0.0177 0.0017 0.0047,
             rotate = 0.0 -30.9663 0.0,
+            scale = 1.0087,
+        }
+    }
+	model Refajo_Ground
+    {
+        mesh = PopCanRed,
+        texture = WorldItems/refajo,
+        attachment Bip01_Prop2
+        {
+            offset = -0.0295 0.0029 -0.0065,
+            rotate = 1.643 -30.8036 -10.4295,
             scale = 1.0087,
         }
     }
@@ -80,9 +91,7 @@ module Colombia
     }
 	model AguardienteGround
     {
-        mesh = WorldItems/WhiskeyBottle,
+        mesh = WhiskeyBottle,
 		texture = WorldItems/aguardiente,
-        texture = WhiskeyBottle,
-        scale = 0.4,
     }
 }

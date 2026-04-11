@@ -3,7 +3,7 @@ module Base
 	model sig543
     {
         mesh = weapons/firearm/sig543,
-		texture = weapons/firearm/sig543,
+	texture = weapons/firearm/sig543,
 		
 		
         attachment muzzle

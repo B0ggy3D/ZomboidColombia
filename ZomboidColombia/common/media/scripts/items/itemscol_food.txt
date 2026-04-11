@@ -6,57 +6,11 @@ module Base
         DisplayCategory = Material,
         ItemType = base:normal,
         Weight = 0.5,
-        Icon = WaferSBag,
+        Icon = WafersBag,
         SurvivalGear = true,
         WorldStaticModel = WafersBag,
         DoubleClickRecipe = OpenBox20,
     }
-	/**Candy**/
-	item Quipitos
-	{
-			ItemType = base:food,
-		Icon = quipitos,
-		Weight = 0.1,
-		Packaged = TRUE,
-		HungerChange = -5,
-		UnhappyChange = -15,
-		Calories = 32,
-		Carbohydrates = 7,
-		Lipids = 1,
-		Proteins = 1,
-			WorldStaticModel = quipitos,
-			StaticModel = quipitos,
-	}
-	item GuavaSweet /**Bocadillo Veleño**/
-	{
-			ItemType = base:food,
-		Icon = quipitos,
-		Weight = 0.1,
-		Packaged = TRUE,
-		HungerChange = -5,
-		UnhappyChange = -15,
-		Calories = 32,
-		Carbohydrates = 7,
-		Lipids = 1,
-		Proteins = 1,
-			WorldStaticModel = quipitos,
-			StaticModel = quipitos,
-	}
-	item SugarCaneSweet /**Panelita**/
-	{
-			ItemType = base:food,
-		Icon = quipitos,
-		Weight = 0.1,
-		Packaged = TRUE,
-		HungerChange = -5,
-		UnhappyChange = -15,
-		Calories = 32,
-		Carbohydrates = 7,
-		Lipids = 1,
-		Proteins = 1,
-			WorldStaticModel = quipitos,
-			StaticModel = quipitos,
-	}
 	item Wafers /**Falta modificar a oblea-No Perecedero**/
     {
         DisplayCategory = Food,
@@ -74,9 +28,55 @@ module Base
         WorldStaticModel = Cookie_Oatmeal_Ground,
         Tags = base:fitstoaster,
     }
+	/**Candy**/
+	item Quipitos
+	{
+		ItemType = base:food,
+		Icon = quipitos,
+		Weight = 0.1,
+		Packaged = TRUE,
+		HungerChange = -5,
+		UnhappyChange = -15,
+		Calories = 32,
+		Carbohydrates = 7,
+		Lipids = 1,
+		Proteins = 1,
+			WorldStaticModel = quipitos,
+			StaticModel = quipitos,
+	}
+	item GuavaSweet /**Bocadillo Veleño**/
+	{
+		ItemType = base:food,
+		Icon = quipitos,
+		Weight = 0.1,
+		Packaged = TRUE,
+		HungerChange = -5,
+		UnhappyChange = -15,
+		Calories = 32,
+		Carbohydrates = 7,
+		Lipids = 1,
+		Proteins = 1,
+			WorldStaticModel = quipitos,
+			StaticModel = quipitos,
+	}
+	item SugarCaneSweet /**Panelita**/
+	{
+		ItemType = base:food,
+		Icon = quipitos,
+		Weight = 0.1,
+		Packaged = TRUE,
+		HungerChange = -5,
+		UnhappyChange = -15,
+		Calories = 32,
+		Carbohydrates = 7,
+		Lipids = 1,
+		Proteins = 1,
+			WorldStaticModel = quipitos,
+			StaticModel = quipitos,
+	}
 	item Chocoramo
 	{
-			ItemType = base:food,
+		ItemType = base:food,
 		Icon = chocoramo,
 		Weight = 0.3,
 		Packaged = TRUE,
@@ -91,7 +91,7 @@ module Base
 	}
 	item Gansito
 	{
-			ItemType = base:food,
+		ItemType = base:food,
 		Icon = gansito,
 		Weight = 0.3,
 		Packaged = TRUE,
@@ -126,7 +126,7 @@ module Base
 	/**Chips**/
 	item Margarita
 	{
-			ItemType = base:food,
+		ItemType = base:food,
 		Icon = margarita,
 		EatType = EatBox,
 		Weight = 0.2,
@@ -143,7 +143,7 @@ module Base
 	}
 	item DeTodito
 	{
-			ItemType = base:food,
+		ItemType = base:food,
 		EatType = EatBox,
 		Weight = 0.2,
 		Icon = detodito,
